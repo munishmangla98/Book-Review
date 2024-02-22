@@ -11,8 +11,6 @@ import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
-import { AddBookComponent } from './add-book/add-book.component';
-import { UpdateBookComponent } from './update-book/update-book.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
 import { BookAddComponent } from './book-add/book-add.component';
 import { BookRetriveComponent } from './book-retrive/book-retrive.component';
@@ -28,15 +26,13 @@ import { BookRetriveComponent } from './book-retrive/book-retrive.component';
     LoginComponent,
     SignupComponent,
     AdminComponent,
-    AddBookComponent,
-    UpdateBookComponent,
     BookUpdateComponent,
     BookAddComponent,
     BookRetriveComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

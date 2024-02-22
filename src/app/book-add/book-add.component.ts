@@ -8,3 +8,17 @@ import { Component } from '@angular/core';
 export class BookAddComponent {
 
 }
+// export class YourComponent {
+//   userData = {
+//     rating: null
+//   };
+
+//   ratingError = false;
+
+//   validateRating() {
+//     const rating = this.userData.rating;
+
+//     // Check if the entered rating is valid
+//     this.ratingError = rating !== null && (rating < 1 || rating > 5);
+//   }
+// }
