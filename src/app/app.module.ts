@@ -14,6 +14,8 @@ import { AdminComponent } from './admin/admin.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
 import { BookAddComponent } from './book-add/book-add.component';
 import { BookRetriveComponent } from './book-retrive/book-retrive.component';
+import { UsersComponent } from './users/users.component';
+import { UpdateuserComponent } from './updateuser/updateuser.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { BookRetriveComponent } from './book-retrive/book-retrive.component';
     AdminComponent,
     BookUpdateComponent,
     BookAddComponent,
-    BookRetriveComponent
+    BookRetriveComponent,
+    UsersComponent,
+    UpdateuserComponent
   ],
   imports: [
     BrowserModule,

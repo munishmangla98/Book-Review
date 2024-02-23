@@ -10,6 +10,8 @@ import { AdminComponent } from './admin/admin.component';
 import { BookAddComponent } from './book-add/book-add.component';
 import { BookRetriveComponent } from './book-retrive/book-retrive.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
+import { UsersComponent } from './users/users.component';
+import { UpdateuserComponent } from './updateuser/updateuser.component';
 
 const routes: Routes = [
   {
@@ -51,6 +53,14 @@ const routes: Routes = [
 {
     path:'retrive-book',
     component:BookRetriveComponent,
+},
+{
+    path:'users',
+    component:UsersComponent
+},
+{
+    path:'updateuser',
+    component:UpdateuserComponent
 },
 {
     path:'bookupdate',
