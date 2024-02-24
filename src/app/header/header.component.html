@@ -1,8 +1,13 @@
 <nav class="nav">
-    <h1 routerLink="/">Book Reviewer</h1>
+    <p routerLink="/">Book Reviewer</p>
     <div class="nav-search">
         <input type="text" placeholder="Search for Book" />
         <button>Search</button>
+    </div>
+    <div class="menu-toggle" (click)="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
     </div>
     <ul>
         <li><a routerLink="/">Home</a></li>

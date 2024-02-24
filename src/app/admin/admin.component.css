@@ -12,7 +12,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .card {
@@ -26,14 +26,19 @@ h1 {
 li{
     display: block;
     font-size: 18px;
-    flex-direction: column;
     float: left;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: 10px;
-    margin-left: 140px;
     padding: 2px;
-    justify-content: center;
+    align-items: center;
 }
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
   a{
     background-color: #007bff;
     color: #fff;
@@ -42,10 +47,41 @@ flex-wrap: wrap;
     border-radius: 4px;
     cursor: pointer;
     margin: 10px;
-    margin-left: 80px;
     text-decoration: none;
+    align-items: center;
     }
 .admin{
     display: block;
 
+}
+@media screen and (max-width: 788px) {
+    .admin {
+        flex-direction: row;
+    }
+
+    .link,
+    .dashboard {
+        width: 100%;
+    }
+    li {
+        /* display: block; */
+        font-size: 10px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 1px;
+        padding: 2px;
+        /* justify-content: center; */
+    }
+    a{
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 1px;
+        margin-left: 45px;
+        text-decoration: none;
+        font-size: large;
+        }
 }
