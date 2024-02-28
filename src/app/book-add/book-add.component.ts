@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./book-add.component.css']
 })
 export class BookAddComponent {
-
+  Bookadd(data:object):void{
+    console.warn(data)
+  }
 }
 // export class YourComponent {
 //   userData = {

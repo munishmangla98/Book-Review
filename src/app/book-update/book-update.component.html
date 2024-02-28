@@ -3,22 +3,22 @@
 <div class="bookupdate-container">
     <h2>Update Book</h2>
     <!-- <form (submit)="submitForm()"> -->
-    <form>
+    <form #Bookupdateform="ngForm" (ngSubmit)="Bookupdate(Bookupdateform.value)">
         <div class="form-group">
             <label for="Bookname">Book Name:</label>
-            <input type="text" id="Bookname" name="Bookname">
+            <input type="text" id="Bookname" name="Bookname" ngModel>
 
         </div>
 
         <div class="form-group">
             <label for="BookAuthor">Author Name:</label>
-            <input type="text" id="BookAuthor" name="BookAuthor">
+            <input type="text" id="BookAuthor" name="BookAuthor" ngModel>
 
         </div>
 
         <div class="form-group">
             <label for="Dateofpublishing">Dateofpublishing:</label>
-            <input type="date" id="Dateofpublishing" name="Dateofpublishing">
+            <input type="date" id="Dateofpublishing" name="Dateofpublishing" ngModel>
 
         </div>
 
@@ -35,13 +35,13 @@
 
         <div class="form-group">
             <label for="Review">Review:</label>
-            <input type="text" id="Review" name="Review">
+            <input type="text" id="Review" name="Review" ngModel>
 
         </div>
 
         <div class="form-group">
             <label for="pic">Picture:</label>
-            <input type="file" id="pic" name="pic" accept="image/*">
+            <input type="file" id="pic" name="pic" accept="image/*" ngModel>
         </div>
 
         <button type="submit">Submit</button>

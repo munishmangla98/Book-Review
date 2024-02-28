@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-us.component.css']
 })
 export class ContactUsComponent {
-
+    contactUs(data:object):void{
+    console.warn(data)
+  }
 }

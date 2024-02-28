@@ -16,6 +16,7 @@ import { BookAddComponent } from './book-add/book-add.component';
 import { BookRetriveComponent } from './book-retrive/book-retrive.component';
 import { UsersComponent } from './users/users.component';
 import { UpdateuserComponent } from './updateuser/updateuser.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { UpdateuserComponent } from './updateuser/updateuser.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

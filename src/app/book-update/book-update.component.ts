@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./book-update.component.css']
 })
 export class BookUpdateComponent {
-
+  Bookupdate(data:object):void{
+    console.warn(data)
+  }
 }

@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./updateuser.component.css']
 })
 export class UpdateuserComponent {
-
+    userUpdate(data:object):void{
+    console.warn(data)
+  }
 }
