@@ -17,6 +17,8 @@ import { BookRetriveComponent } from './book-retrive/book-retrive.component';
 import { UsersComponent } from './users/users.component';
 import { UpdateuserComponent } from './updateuser/updateuser.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +35,14 @@ import { FormsModule } from '@angular/forms';
     BookAddComponent,
     BookRetriveComponent,
     UsersComponent,
-    UpdateuserComponent
+    UpdateuserComponent,
+    UserDashboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

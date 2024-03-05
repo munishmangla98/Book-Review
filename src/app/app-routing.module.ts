@@ -12,6 +12,7 @@ import { BookRetriveComponent } from './book-retrive/book-retrive.component';
 import { BookUpdateComponent } from './book-update/book-update.component';
 import { UsersComponent } from './users/users.component';
 import { UpdateuserComponent } from './updateuser/updateuser.component';
+import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 
 const routes: Routes = [
   {
@@ -65,7 +66,11 @@ const routes: Routes = [
 {
     path:'bookupdate',
     component:BookUpdateComponent
-}
+},
+{
+    path:'user_dashboard',
+    component:UserDashboardComponent
+},
 ];
 
 @NgModule({
